@@ -10,19 +10,19 @@ Install package:
 
 ```sh
 # ✨ Auto-detect
-npx nypm install saas-hooks
+npx nypm install packageName
 
 # npm
-npm install saas-hooks
+npm install packageName
 
 # yarn
-yarn add saas-hooks
+yarn add packageName
 
 # pnpm
-pnpm install saas-hooks
+pnpm install packageName
 
 # bun
-bun install saas-hooks
+bun install packageName
 ```
 
 <!-- /automd -->
