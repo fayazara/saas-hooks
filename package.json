@@ -1,8 +1,8 @@
 {
-  "name": "packageName",
+  "name": "saas-hooks",
   "version": "0.0.0",
   "description": "",
-  "repository": "unjs/packageName",
+  "repository": "fayazara/saas-hooks/",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
@@ -16,7 +16,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "unbuild",
     "dev": "vitest dev",
@@ -41,5 +43,9 @@
     "unbuild": "^2.0.0",
     "vitest": "^1.5.3"
   },
-  "packageManager": "pnpm@9.0.6"
+  "packageManager": "pnpm@9.0.6",
+  "dependencies": {
+    "ofetch": "^1.3.4",
+    "resend": "^3.4.0"
+  }
 }
